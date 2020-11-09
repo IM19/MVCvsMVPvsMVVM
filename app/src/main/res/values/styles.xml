@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@color/title_bar_background</item>
+    </style>
+
+    <style name="potion_entry_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="potion_data">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

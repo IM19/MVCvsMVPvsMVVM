@@ -1,0 +1,50 @@
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/potion_card_background"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    card_view:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/potion_entry_selected_state">
+
+        <View
+            android:id="@+id/potion_entry_number_background"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/potion_entry_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/potion_entry_number_background"
+            app:layout_constraintRight_toRightOf="@+id/potion_entry_number_background"
+            android:layout_marginRight="48dp"
+            android:elevation="2dp"
+            android:textAppearance="@style/potion_entry_title"
+            />
+
+        <TextView
+            android:id="@+id/potion_entry_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/potion_entry_title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@id/potion_entry_number_background"
+            android:layout_marginLeft="16dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

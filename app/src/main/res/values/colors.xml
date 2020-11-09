@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#ff000000</color>
+    <color name="title_bar_background">#ff212121</color>
+    <color name="potionEntryBg">#ff212121</color>
+    <color name="potion_card_background">#ff212121</color>
+</resources>

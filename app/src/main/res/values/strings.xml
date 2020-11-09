@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Potions</string>
+    <string name="potions_activity">Potions List</string>
+    <string name="potion_description_activity">Potion Description</string>
+    <string name="potion_name">"Name: "</string>
+    <string name="potion_ingredients">"Ingredients: "</string>
+    <string name="potion_effects">"Effects: "</string>
+    <string name="potion_characteristics">"Characteristics: "</string>
+    <string name="potion_level">"Difficulty: "</string>
+    <string name="data_error">"Error loading data"</string>
+</resources>
