@@ -3,9 +3,19 @@
     package="com.architecturepatterns.potions">
 
     <application
+        android:name=".PotionsApplication"
         android:allowBackup="true"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme" />
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.ui.PotionsMVVMActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.ui.PotionDetailActivity"/>
+
+    </application>
 
 </manifest>
